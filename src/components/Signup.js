@@ -41,7 +41,7 @@ export default function Signup() {
   const handleSubmit = async(event) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
-    const response= await fetch(`http://localhost:5000/api/auth/createuser`, {
+    const response= await fetch(`https://backend-v-notebook.vercel.app/api/auth/createuser`, {
         method: 'POST',
         headers:{
           'Content-type':'application/json',
