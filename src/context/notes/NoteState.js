@@ -18,7 +18,7 @@ const NoteState = (props) => {
   //     }, 1000);
   // }
   
-  const host="http://localhost:5000"
+  const host="https://backend-v-notebook.vercel.app"
   const notesInitial = []
   
 
